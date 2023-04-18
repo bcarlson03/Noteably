@@ -6,7 +6,7 @@ def generate_pdf(note):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_auto_page_break(True, margin=15)
-    pdf.set_xy(0, 0)
+    pdf.set_xy(0, 10)
 
     #Adds a header saying the following will be the condensed notes.
     pdf.set_font('Times', 'UB', 16)
