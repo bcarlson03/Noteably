@@ -1,0 +1,7 @@
+openai
+fpdf
+google-cloud-speech
+gsutil
+google-cloud-storage
+graphics.py
+pyautogui
