@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+        <title>
+            Noteably
+        </title>
+
+        <link rel="stylesheet" href="noteably.css">
+     </head>
+    
+     <body>
+        <img src="C:/Users/Blake/Desktop/Portfolio Website/Logo Without Lines Resized.png" alt="Noteably's Logo" width="960" height="540" class="NoteablyLogo">
+        
+        <h2>
+            What is Noteably?
+        </h2>
+
+        <p>
+            A program made in 36 hours during the HackKU23 hackathon that generates educational notes and a transcript from any audio file. The project won "Best Use of Google Cloud". It was created by Michael Stang, Holden Vail, Logan Smith, and Blake Carlson.
+            The theme for the competition was accessability, so Noteably was designed to be a tool for people who are votherwise unable to take notes on their own to have access to academic studying tools. 
+        </p>
+
+        <h2>
+            Technologies used
+        </h2>
+
+        <ul>
+            <li>Python</li>
+            <li>Google Cloud Speech-to-Text API</li>
+            <li>Google Cloud Storage API</li>
+            <li>OpenAI API</li>
+        </ul>
+
+        <h2>
+            How it works
+        </h2>
+
+        <p>
+            Noteably functions as a program that turns various audio files into condensed summaries. The program requires multiple steps in order to turn the raw audio into notes. First the audio file is processed by the Google Cloud speech-to-text API to create a transcript of the original audio file.
+            Next, the transcript is given to a trained large language model through the OpenAI API. The model determines the subject of the audio file and what from the transcript is most important. The model then outputs what it determines to be an accurate and comprehensive summary of the orignal audio source.
+            This output is taken and run through a python script which takes the summarized notes and generates a well-formatted pdf containing the key infomation to be used as notes or a summary. 
+        </p>
+
+        <iframe width="672" height="378" src="https://www.youtube-nocookie.com/embed/Vzi7MTipCPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div class="videoCredit">
+            Video created by Jack Bauer and Michael Stang
+        </div>
+
+        <h2>
+            Takeaways
+        </h2>
+
+        <p>
+            This was the first hackathon that any of us had competed in. There are several key takeaways and lessons that we learned from our experience.
+        </p>
+
+        <ul>
+            <li>Programming with others as a team is vastly different from working on a project by yourself</li>
+            <li>Splitting up work according to each team members strengths greatly increased productivity</li>
+            <li>Focusing on getting a minimum viable product working is all you can expect to have time for</li>
+        </ul>
+
+        <h2>
+            Check it out
+        </h2>
+        <ul>
+            <li><a href="https://github.com/bcarlson03/HackKU23-Project">GitHub Repository</a></li>
+            <li><a href="https://devpost.com/software/noteably">Devpost Submission</a></li>
+        </ul>
+
+        <h4>
+            Webpage created by Blake Carlson | Background and Noteably Logo created by Michael Stang
+        </h4>
+     </body>
+
+
+</html>

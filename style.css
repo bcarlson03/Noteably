@@ -1,0 +1,89 @@
+body {
+    background-color: #454545;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("C:/Users/Blake/Desktop/Portfolio Website/bg.png");
+    background-size: cover;}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px#101010;
+    text-decoration-color: whitesmoke;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: whitesmoke;
+    line-height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 5%;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+h4 {
+    color: whitesmoke;
+    font-size: 21px;
+    text-align: center;
+}
+
+
+ul {
+    color: whitesmoke;
+    font-size: 21px;
+    line-height: 40px;
+    margin-left: 8%;
+}
+
+iframe {
+    display: block;
+    margin: 3% auto 1%;
+    border: 3px solid whitesmoke;
+    max-width: 100%;
+    width: 30%;
+    min-width: 450px;
+}
+
+
+.NoteablyLogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+}
+
+.contactinfo {
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.rethome {
+    color: whitesmoke;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.videoCredit {
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+}
